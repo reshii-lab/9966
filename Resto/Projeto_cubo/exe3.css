@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(78, 78, 78);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 40px;
+    color: white;
+
+}
+
+div{
+    margin: 30px
+}
+button{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    padding: 10px, 5px;
+    font-size: 20px;
+    border: none;
+    margin: 10px;
+    position: top;
+
+}
+
+img{
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+    transition: transform 0.5s;
+    perspective: 800px;
+
+}
+
+.botoes:hover{
+    background-color: rgb(202, 145, 255);
+    transform: scale(1.1);
+    color: white;
+}
+
+.container{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
